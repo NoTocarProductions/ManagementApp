@@ -1,0 +1,38 @@
+components:
+
+WELCOME SCREEN
+	Header(img, h1, text)
+	button (+ create new project)
+
+Sidebar
+	title (your projects)
+	Button (+ add project)
+	List of added projecs (name?) continuously updated
+____________________________
+
+** + ADD PROJECT
+Sidebar(same)
+<dialog>
+form (label, input, label, input, label, input)
+button (cancel)
+button (save)
+</dialog>
+____________________________
+** + SAVE  
+--> back to main menu (welcome)
+____________________________
+
+** + CLICK ADDED PROJECT
+
+Header(title, date, text, text)
+button(delete)
+form(h2, input, label, cond.text)
+____________________________
+** + ADD TASK
+same screen
+div(text)
+button(clear)
+
+
+
+TOMORROW FUNCTIONALITIES WITH  BUTTONS AND NEW PROJECT RENDERING
